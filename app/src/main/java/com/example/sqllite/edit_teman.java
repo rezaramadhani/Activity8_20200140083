@@ -28,8 +28,8 @@ public class edit_teman extends AppCompatActivity {
         setContentView(R.layout.activity_edit_teman);
 
         Nama = findViewById(R.id.edNama);
-        Telepon = findViewById(R.id.edTelp);
-        Save = findViewById(R.id.simpanBtn);
+//        Telepon = findViewById(R.id.edTelp);
+//        Save = findViewById(R.id.simpanBtn);
 
         id = getIntent().getStringExtra("id");
         nma = getIntent().getStringExtra("nama");
